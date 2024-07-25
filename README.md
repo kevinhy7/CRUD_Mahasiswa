@@ -7,5 +7,3 @@ Pertama-tama, pengguna harus mendaftar dan melakukan login. Setelah berhasil log
 
 Script SQL untuk membuat database dan tabel terdapat pada file **database.sql**.
 
-Translated with DeepL.com (free version)
-

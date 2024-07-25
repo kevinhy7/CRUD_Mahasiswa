@@ -20,7 +20,7 @@ CREATE TABLE `Mahasiswa` (
   `Tanggal_masuk` DATE NOT NULL,
   `Login_id` int(20) NOT NULL,
   PRIMARY KEY  (`Id`),
-  CONSTRAINT FK_products_1
+  CONSTRAINT FK_Mahasiswa_1
   FOREIGN KEY (Login_id) REFERENCES login(Id)
   ON UPDATE CASCADE ON DELETE CASCADE
 ) ENGINE=InnoDB;

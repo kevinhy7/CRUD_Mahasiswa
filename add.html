@@ -1,0 +1,45 @@
+<html>
+<head>
+	<title>Tambah Data</title>
+	<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<div class="nav">
+		<a href="index.php">Beranda</a> | 
+		<a href="view.php">Lihat Mahasiswa</a> | 
+		<a href="logout.php">Logout</a>
+	</div>
+	<br/><br/>
+
+	<form action="add.php" method="post" name="form1" class="form-container">
+		<table class="form-table">
+			<tr> 
+				<td><label for="Nim">Nim</label></td>
+				<td><input type="text" id="Nim" name="Nim" required></td>
+			</tr>
+			<tr> 
+				<td><label for="Nama">Nama</label></td>
+				<td><input type="text" id="Nama" name="Nama" required></td>
+			</tr>
+			<tr> 
+				<td><label for="Sex">Sex</label></td>
+				<td><input type="text" id="Sex" name="Sex" required></td>
+			</tr>
+			<tr> 
+				<td><label for="Prodi_Jurusan">Prodi / Jurusan</label></td>
+				<td><input type="text" id="Prodi_Jurusan" name="Prodi_Jurusan" required></td>
+			</tr>
+			<tr> 
+				<td><label for="Tanggal_masuk">Tanggal masuk</label></td>
+				<td><input type="date" id="Tanggal_masuk" name="Tanggal_masuk" required></td>
+			</tr>
+			<tr> 
+				<td></td>
+				<td><input type="submit" name="Submit" value="Tambah" class="submit-btn"></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
+

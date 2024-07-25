@@ -1,0 +1,229 @@
+/* CSS Document */
+
+/* General Styles */
+body {
+	margin: auto;
+	padding: 20px;
+	font-family: Arial, sans-serif;
+	background-color: #f4f4f4;
+	color: #333;
+}
+
+/* Header Styles */
+#header {
+	width: 700px;
+	color: maroon;
+	font-size: 32px;
+	padding: 10px 10px 10px 0px;
+	margin-bottom: 15px;
+	border-bottom: 1px solid green;
+	margin: 0 auto;
+	text-align: center;
+}
+
+/* Navigation Styles */
+.nav {
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.nav a {
+	margin: 0 15px;
+	text-decoration: none;
+	color: #336699;
+	font-weight: bold;
+}
+
+.nav a:hover {
+	text-decoration: underline;
+}
+
+/* Button Styles */
+.button-container {
+	text-align: center;
+}
+
+.button {
+	display: inline-block;
+	padding: 10px 20px;
+	font-size: 16px;
+	margin: 10px auto;
+	text-align: center;
+	cursor: pointer;
+	text-decoration: none;
+	color: #fff;
+	background-color: #4CAF50;
+	border: none;
+	border-radius: 5px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.button:hover {
+	background-color: #45a049;
+}
+
+/* Data Table Styles */
+table.data-table {
+	width: 80%;
+	margin: 0 auto;
+	border-collapse: collapse;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+	background-color: #fff;
+}
+
+table.data-table th, table.data-table td {
+	padding: 10px;
+	text-align: left;
+	border: 1px solid #ddd;
+}
+
+table.data-table tr:nth-child(even) {
+	background-color: #f9f9f9;
+}
+
+table.data-table tr:hover {
+	background-color: #f1f1f1;
+}
+
+.edit-btn, .delete-btn {
+	padding: 5px 10px;
+	text-decoration: none;
+	color: #fff;
+	border-radius: 3px;
+}
+
+.edit-btn {
+	background-color: #4CAF50;
+}
+
+.edit-btn:hover {
+	background-color: #45a049;
+}
+
+.delete-btn {
+	background-color: #f44336;
+}
+
+.delete-btn:hover {
+	background-color: #da190b;
+}
+
+/* Footer Styles */
+#footer {
+	border-top: 1px solid green;
+	margin-top: 20px;
+	color: #336699;
+	padding-top: 10px;
+	text-align: center;
+	margin: 0 auto;
+	width: 700px;
+}
+
+.welcome {
+	text-align: center;
+	font-size: 24px;
+	margin-top: 20px;
+}
+
+/* Button Styles */
+.edit-btn, .delete-btn {
+	display: inline-block;
+	padding: 5px 15px;
+	font-size: 14px;
+	text-decoration: none;
+	color: #fff;
+	border-radius: 10px;
+	text-align: center;
+	cursor: pointer;
+	border: none;
+}
+
+.edit-btn {
+	background-color: #4CAF50;
+}
+
+.edit-btn:hover {
+	background-color: #45a049;
+}
+
+.delete-btn {
+	background-color: #f44336;
+}
+
+.delete-btn:hover {
+	background-color: #da190b;
+}
+
+
+/* CSS Document */
+
+/* General Styles */
+body {
+	margin: auto;
+	padding: 20px;
+	font-family: Arial, sans-serif;
+	background-color: #f4f4f4;
+	color: #333;
+}
+
+.nav {
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.nav a {
+	margin: 0 15px;
+	text-decoration: none;
+	color: #336699;
+	font-weight: bold;
+}
+
+.nav a:hover {
+	text-decoration: underline;
+}
+
+/* Form Container Styles */
+.form-container {
+	width: 50%;
+	margin: 0 auto;
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 8px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.form-table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.form-table td {
+	padding: 10px;
+}
+
+.form-table label {
+	display: block;
+	font-weight: bold;
+}
+
+.form-table input[type="text"],
+.form-table input[type="date"] {
+	width: 100%;
+	padding: 8px;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+}
+
+.submit-btn {
+	background-color: #4CAF50;
+	color: #fff;
+	padding: 10px 15px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	font-size: 16px;
+}
+
+.submit-btn:hover {
+	background-color: #45a049;
+}

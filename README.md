@@ -1,9 +1,11 @@
-Complete Create, Read, Update, Delete (CRUD) in PHP & MySQL
+Penjelasan Lengkap Membuat, Membaca, Memperbarui, Menghapus (CRUD) di PHP & MySQL
 ========
 
-A complete CRUD system to add, edit, delete and view using PHP and MySQL. Complete in a sense that this system has login and register feature as well.
+Sistem CRUD yang lengkap untuk menambah, mengedit, menghapus, dan melihat menggunakan PHP dan MySQL. Lengkap dalam artian sistem ini memiliki fitur login dan register juga.
 
-At first, users need to register and login. After successful login, users can add their product data. Users can see only those data that they have added.
+Pertama-tama, pengguna harus mendaftar dan melakukan login. Setelah berhasil login, pengguna dapat menambahkan data produk mereka. Pengguna hanya dapat melihat data yang telah mereka tambahkan.
 
-SQL script to create database and tables is present in **database.sql** file.
+Script SQL untuk membuat database dan tabel terdapat pada file **database.sql**.
+
+Translated with DeepL.com (free version)
 
